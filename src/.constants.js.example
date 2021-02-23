@@ -1,32 +1,32 @@
 module.exports = Object.freeze({
-  TOKEN: 'bot_token',
+  TOKEN: '1588866088:AAHNrTNsc1iSWHHI5bN1Qhoj85NLSQMFnCM',
   ARIA_SECRET: 'myaria2',
-  ARIA_DOWNLOAD_LOCATION: '/home/user/path/to/download/dir (no trailing "/")',
-  ARIA_DOWNLOAD_LOCATION_ROOT: '/', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION
-  ARIA_FILTERED_DOMAINS: ['yts', 'YTS', 'cruzing.xyz', 'eztv.ag', 'YIFY'], // Prevent downloading from URLs containing these substrings
-  ARIA_FILTERED_FILENAMES: ['YIFY'], // Files/top level directories with these substrings in the filename won't be downloaded
-  ARIA_PORT: 8210, // Port for aria2c RPC server, if you change this here, make sure to update aria.sh as well
-  GDRIVE_PARENT_DIR_ID: 'id_of_Drive_folder_to_upload_into',
-  OTHER_GDRIVE_DIR_IDS: [], // This is needed if u want to look for files in multiple dirs on list command
-  SUDO_USERS: [012, 345],	// Telegram user IDs. These users can use the bot in any chat.
-  AUTHORIZED_CHATS: [678, 901],	// Telegram chat IDs. Anyone in these chats can use the bot.
-  STATUS_UPDATE_INTERVAL_MS: 12000, // A smaller number will update faster, but might cause rate limiting
+  ARIA_DOWNLOAD_LOCATION: '/path/to/aria-telegram-mirror-bot/downloads',
+  ARIA_DOWNLOAD_LOCATION_ROOT: '/',
+  ARIA_FILTERED_DOMAINS: [],
+  ARIA_FILTERED_FILENAMES: [],
+  ARIA_PORT: 8210,
+  GDRIVE_PARENT_DIR_ID: '1F2E7obRcScKeJZbgfMGHICxO0hNYyYpo',
+  OTHER_GDRIVE_DIR_IDS: [],
+  SUDO_USERS: [1210456025, 1469002059, 1474925315, 1484638861, 1434719429, 1048031845, 1147857211, 1492658104, 1420586674, 1347328162, 1366555127, 1447652007, 1482460290, 1485503247, 1400761679, 1414630945, 1479209280, 1110352454],
+  AUTHORIZED_CHATS: [-1001352261609, -1001349478571, -1001269701837, -1001318089920, -1001273049209, -1001295098191, -1001484112645, -1001444806001, -1001397326196, -1001332101065, -1001201450440, -1001275281781, -1001364405506, -1001466544058, -1001192527927, -1001348608654, -1001417602799, -1001346698976],
+  STATUS_UPDATE_INTERVAL_MS: 6000,
   DRIVE_FILE_PRIVATE: {
     ENABLED: false,
     EMAILS: ['someMail@gmail.com', 'someOtherMail@gmail.com']
   },
-  DOWNLOAD_NOTIFY_TARGET: {  // Information about the web service to notify on download completion.
-    enabled: false,   // Set this to true to use the notify functionality
+  DOWNLOAD_NOTIFY_TARGET: {
+    enabled: false,
     host: 'hostname.domain',
     port: 80,
     path: '/botNotify'
   },
   COMMANDS_USE_BOT_NAME: {
-    ENABLED: false,  // If true, all commands except '/list' has to have the bot username after the command
-    NAME: "@nameOf_bot"
+    ENABLED: false,
+    NAME: ""
   },
-  IS_TEAM_DRIVE: false,
-  USE_SERVICE_ACCOUNT: false,
-  INDEX_DOMAIN: "",
-  TELEGRAPH_TOKEN: '' // Telegraph token, if you want to show search results in telegra.ph else keep it blank
+  IS_TEAM_DRIVE: True,
+  USE_SERVICE_ACCOUNT: True,
+  INDEX_DOMAIN: "https://kazusabot.kazusamirror.workers.dev/0:/Bot%20Uploads",
+  TELEGRAPH_TOKEN: '831cd28085dc6cbfe5dd8da656f26a5212e5fa62a328cd65153cfa6f6d96'
 });
