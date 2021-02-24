@@ -1,5 +1,5 @@
 module.exports = Object.freeze({
-  TOKEN: '1588866088:AAHNrTNsc1iSWHHI5bN1Qhoj85NLSQMFnCM',
+  TOKEN: '',
   ARIA_SECRET: 'myaria2',
   ARIA_DOWNLOAD_LOCATION: '/path/to/aria-telegram-mirror-bot/downloads',
   ARIA_DOWNLOAD_LOCATION_ROOT: '/',
@@ -27,6 +27,6 @@ module.exports = Object.freeze({
   },
   IS_TEAM_DRIVE: True,
   USE_SERVICE_ACCOUNT: True,
-  INDEX_DOMAIN: "https://kazusabot.kazusamirror.workers.dev/0:/Bot%20Uploads",
-  TELEGRAPH_TOKEN: '831cd28085dc6cbfe5dd8da656f26a5212e5fa62a328cd65153cfa6f6d96'
+  INDEX_DOMAIN: "",
+  TELEGRAPH_TOKEN: ''
 });
